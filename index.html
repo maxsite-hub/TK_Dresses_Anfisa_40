@@ -1,0 +1,4376 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Интернет-магазин. Распродажа платьев</title>
+    <meta
+      name="description"
+      content="Модные фасоны на каждый день и широкий ряд элегантных моделей не оставит равнодушными представительниц прекрасного пола. В коллекции более ста моделей на все случаи жизни."
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="assets_pages/land/fonts/MuseoSans/MuseoSans.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets_pages/land/js/slider/owlCarousel-2.2.1/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets_pages/land/js/slider/fancybox-3/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Нарядные платья" />
+    <meta
+      property="og:description"
+      content="Нарядные платья. Модные фасоны на каждый день и широкий ряд моделей не оставит равнодушными представительниц прекрасного пола. Широкая линейка размеров."
+    />
+    <meta property="og:url" content="" />
+
+    <script type="text/javascript" src="js/lt_landing_valid_form.js"></script>
+    <script type="text/javascript" src="js/lt_landing_script.js"></script>
+    <script type="text/javascript">
+      $jsonData = {
+        RU: {
+          currency: " \u0440\u0443\u0431.",
+          productsum: 1390,
+          oldproductsum: 3980,
+          delivery: 0,
+          totalsum: "1390.00",
+        },
+      };
+    </script>
+
+    <style>
+      .ajax_loader {
+        display: none;
+      }
+      select,
+      input,
+      button {
+        outline: none;
+      }
+    </style>
+
+    <!-- LT code insertion -->
+    <!-- /LT code insertion -->
+  </head>
+
+  <body>
+    <header class="header_section">
+      <div class="content_block">
+        <div class="wrapper">
+          <div class="info_block">
+            <div class="logo">
+              <img src="images/logo_.png" alt="" />
+            </div>
+            <script
+              src="js/date.min.js"
+              integrity=""
+              crossorigin="anonymous"
+            ></script>
+
+            <script>
+              $(document).ready(function () {
+                date = Date.today().addDays(-7);
+                date_2 = Date.today();
+
+                date = date.toString("dd.MM.yyyy");
+                date_2 = date_2.toString("dd.MM.yyyy");
+
+                $(".date_1").html(date);
+                $(".date_2").html(date_2);
+              });
+            </script>
+            <div class="info-action">СУПЕР РАСПРОДАЖА ОСТАТКОВ!</div>
+            <h1>
+              <span class="date_1"></span> - <span class="date_2"></span> <br />
+              <b
+                >Любое платье всего за
+                <x-newprice class="productsum"></x-newprice>
+              </b>
+            </h1>
+            <ul class="ofr_bull">
+              <li>Качественный пошив</li>
+              <li>Быстрая доставка</li>
+              <li>Все размеры в наличии</li>
+            </ul>
+            <a href="#catalog" class="button">Смотреть каталог</a>
+          </div>
+          <div class="sale">Скидка до<span>-65%</span></div>
+        </div>
+      </div>
+    </header>
+    <style>
+      .prod_info {
+        font-size: 14px;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <section class="catalog_section">
+      <div class="wrapper">
+        <div class="gallery">
+          <ul class="benef1">
+            <li>
+              <p>Европейское качество тканей</p>
+            </li>
+            <li>
+              <p>
+                Материал:<br />
+                80% хлопок,<br />
+                20% вискоза
+              </p>
+            </li>
+            <li>
+              <p>Гарантия <br />2 года</p>
+            </li>
+            <li>
+              <p>Обмен / возврат 60&nbsp;дней</p>
+            </li>
+            <li>
+              <p>Доставка без предоплаты</p>
+            </li>
+          </ul>
+        </div>
+        <h2 id="catalog">Каталог</h2>
+
+        <div class="products_list clearfix">
+          <div class="product_item">
+            <div class="img">
+             
+                <img
+                  data-src="catalog_img/1.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">САРАФАН </b></div>
+              <div class="vendor_code">Артикул: 101</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+                
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 101");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">САРАФАН </b></div>
+              <div class="vendor_code">Артикул: 101</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/2.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 102</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 102");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 102</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/3.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПАУЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 103</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 103");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПАУЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 103</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/4.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "САША"</b></div>
+              <div class="vendor_code">Артикул: 104</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 104");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "САША"</b></div>
+              <div class="vendor_code">Артикул: 104</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/5.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЯНИНА"</b></div>
+              <div class="vendor_code">Артикул: 105</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 105");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЯНИНА"</b></div>
+              <div class="vendor_code">Артикул: 105</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/6.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЭРИКА"</b></div>
+              <div class="vendor_code">Артикул: 106</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 106");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЭРИКА"</b></div>
+              <div class="vendor_code">Артикул: 106</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/7.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "СОНЯ"</b></div>
+              <div class="vendor_code">Артикул: 107</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 107");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "СОНЯ"</b></div>
+              <div class="vendor_code">Артикул: 107</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/8.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЭВЕЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 108</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 108");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЭВЕЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 108</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/9.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "МАРИНА"</b></div>
+              <div class="vendor_code">Артикул: 109</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 109");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "МАРИНА"</b></div>
+              <div class="vendor_code">Артикул: 109</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/10.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АССОЛЬ"</b></div>
+              <div class="vendor_code">Артикул: 110</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 110");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АССОЛЬ"</b></div>
+              <div class="vendor_code">Артикул: 110</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/11.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" СЕТКА</b></div>
+              <div class="vendor_code">Артикул: 111</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 111");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" СЕТКА</b></div>
+              <div class="vendor_code">Артикул: 111</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/12.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 112</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 112");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 112</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/13.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДИНА "</b></div>
+              <div class="vendor_code">Артикул: 113</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 113");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДИНА "</b></div>
+              <div class="vendor_code">Артикул: 113</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/14.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АЛСУ"</b></div>
+              <div class="vendor_code">Артикул: 114</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 114");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АЛСУ"</b></div>
+              <div class="vendor_code">Артикул: 114</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/15.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ОКСАНА" ТР.</b></div>
+              <div class="vendor_code">Артикул: 115</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 115");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ОКСАНА" ТР.</b></div>
+              <div class="vendor_code">Артикул: 115</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/16.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 116</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 116");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕССИКА" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 116</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/17.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЯНА"</b></div>
+              <div class="vendor_code">Артикул: 117</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 117");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЯНА"</b></div>
+              <div class="vendor_code">Артикул: 117</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/18.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЗОЯ</b></div>
+              <div class="vendor_code">Артикул: 118</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 118");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЗОЯ</b></div>
+              <div class="vendor_code">Артикул: 118</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/19.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕСС" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 119</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 119");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ДЖЕСС" ГИПЮР</b></div>
+              <div class="vendor_code">Артикул: 119</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/20.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЛЕРА"</b></div>
+              <div class="vendor_code">Артикул: 120</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 120");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЛЕРА"</b></div>
+              <div class="vendor_code">Артикул: 120</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/21.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА" ЛАЙТ</b></div>
+              <div class="vendor_code">Артикул: 121</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 121");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА" ЛАЙТ</b></div>
+              <div class="vendor_code">Артикул: 121</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/22.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ХАЛАТ</b></div>
+              <div class="vendor_code">Артикул: 122</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 122");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ХАЛАТ</b></div>
+              <div class="vendor_code">Артикул: 122</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/23.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АЛИСА"</b></div>
+              <div class="vendor_code">Артикул: 123</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 123");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "АЛИСА"</b></div>
+              <div class="vendor_code">Артикул: 123</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/24.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ОКСАНА" СОФТ</b></div>
+              <div class="vendor_code">Артикул: 124</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 124");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ОКСАНА" СОФТ</b></div>
+              <div class="vendor_code">Артикул: 124</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/25.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 125</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 125");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА"</b></div>
+              <div class="vendor_code">Артикул: 125</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">4380р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/26.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЮЛЯ"</b></div>
+              <div class="vendor_code">Артикул: 126</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 126");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЮЛЯ"</b></div>
+              <div class="vendor_code">Артикул: 126</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/27.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 127</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 127");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 127</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/28.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 128</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 128");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ИРИНА"</b></div>
+              <div class="vendor_code">Артикул: 128</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/29.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА" БАРБИ</b></div>
+              <div class="vendor_code">Артикул: 129</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 129");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ПОЛИНА" БАРБИ</b></div>
+              <div class="vendor_code">Артикул: 129</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/30.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "КЛАССИКА"</b></div>
+              <div class="vendor_code">Артикул: 130</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 130");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "КЛАССИКА"</b></div>
+              <div class="vendor_code">Артикул: 130</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+              <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/31.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "СКАРЛЕТТ"</b></div>
+              <div class="vendor_code">Артикул: 131</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 131");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "СКАРЛЕТТ"</b></div>
+              <div class="vendor_code">Артикул: 131</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/32.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЮЛИАНА"</b></div>
+              <div class="vendor_code">Артикул: 132</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 132");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ЮЛИАНА"</b></div>
+              <div class="vendor_code">Артикул: 132</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/33.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВИОЛА"</b></div>
+              <div class="vendor_code">Артикул: 133</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 133");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВИОЛА"</b></div>
+              <div class="vendor_code">Артикул: 133</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/34.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВЛАДА"</b></div>
+              <div class="vendor_code">Артикул: 134</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 134");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВЛАДА"</b></div>
+              <div class="vendor_code">Артикул: 134</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3150р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+            <img
+                  data-src="catalog_img/35.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "МИЛЕНА"</b></div>
+              <div class="vendor_code">Артикул: 135</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 135");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "МИЛЕНА"</b></div>
+              <div class="vendor_code">Артикул: 135</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/36.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВЕРА"</b></div>
+              <div class="vendor_code">Артикул: 136</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 136");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВЕРА"</b></div>
+              <div class="vendor_code">Артикул: 136</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/37.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВИТА"</b></div>
+              <div class="vendor_code">Артикул: 137</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 137");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ВИТА"</b></div>
+              <div class="vendor_code">Артикул: 137</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/38.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ТОМА"</b></div>
+              <div class="vendor_code">Артикул: 138</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 138");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ "ТОМА"</b></div>
+              <div class="vendor_code">Артикул: 138</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3490р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+             <img
+                  data-src="catalog_img/39.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ЗАРА"</b></div>
+              <div class="vendor_code">Артикул: 139</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 139");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ-ТУНИКА "ЗАРА"</b></div>
+              <div class="vendor_code">Артикул: 139</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3330р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+          <div class="product_item">
+            <div class="img">
+              <img
+                  data-src="catalog_img/40.jpg"
+                  src="img/prev.html"
+                  class="b-lazy"
+                  alt=""
+              />
+            </div>
+            <div class="content">
+              <div><b style="font-size: 20px">ПЛАТЬЕ-РУБАШКА "ОЛЕСЯ"</b></div>
+              <div class="vendor_code">Артикул: 140</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971</div>
+                <div class="price_item new productsum"></div>
+              </div>
+              <div class="button" onclick='$(".adr").val("Артикул: 140");'>
+                Заказать
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="close"></div>
+              <div class="action">
+                <span>Оставьте заявку</span>
+                <p>
+                  и наш консультант свяжется в вами и поможет подобрать размер
+                </p>
+              </div>
+              <div><b style="font-size: 20px">ПЛАТЬЕ-РУБАШКА "ОЛЕСЯ"</b></div>
+              <div class="vendor_code">Артикул: 140</div>
+              <div style="font-size: 15px">
+                 <b>Размеры в наличии: 42-78</b><br />
+                <b>Доставка: по всей РФ</b><br/>
+                <b>Обмен / возврат: 60 дней </b>
+              </div>
+              <br />
+              <div class="price_block clearfix">
+                <div class="price_item old">3971р</div>
+                <div class="price_item new productsum"></div>
+              </div>
+
+              <form
+                class="main-order-form order_form"
+                action="https://dress-discount-n.promo2021.ru/success/"
+                method="post"
+              >
+                <select name="country" class="countryselect input">
+                  <option selected value="RU">Россия</option>
+                </select>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Ваше имя"
+                  required=""
+                />
+                <input
+                  class="input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="Номер телефона"
+                  required=""
+                />
+                <div class="reolader">
+                  <button
+                    class="mm_button button"
+                    onclick="checkFields(event, this);"
+                  >
+                    Заказать
+                  </button>
+                  <div class="ajax_loader_block">
+                    <img
+                      class="ajax_loader"
+                      src="img/ajax-loader.gif"
+                      alt="Идет отправка данных"
+                    />
+                    <span class="ajax_loader">Идет отправка данных</span>
+                  </div>
+                </div>
+                <input type="hidden" name="productsum" value="1890 руб." />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input type="hidden" name="totalsum" value="1890 руб." />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+                <input type="hidden" name="description" value="" class="adr" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="order_info_section">
+      <div class="wrapper">
+        <h2>Доставка и гарантия</h2>
+        <img class="product" src="images/order_img.jpg" alt="" />
+        <div class="info_list">
+          <div class="info_item">
+            <p>Доставка почтой в течение 3‑10 рабочих дней.</p>
+          </div>
+          <div class="info_item">
+            <p>Оплата заказов осуществляется по факту получения товара</p>
+          </div>
+          <div class="info_item">
+            <p>
+              Все платья проходят обязательную проверку качества перед отправкой
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews_section">
+      <div class="wrapper">
+        <h2>Отзывы покупателей</h2>
+        <!--<p class="description">Более <span>95,4%</span> покупателей рекомендуют наш магазин</p>-->
+        <div class="reviews_list owl-carousel">
+          <div class="review_item">
+            <span>“Спасибо большое за качественный товар!”</span>
+            <p>
+              Добрый день. Делаю уже далеко не первый заказ. Платья очень
+              качественные, и прекрасно садятся по фигуре. Отдельное спасибо
+              девочкам консультантам за терпение и понимание. Буду заказывать
+              ещё.
+            </p>
+            <div class="author_info">
+              <img src="images/ava1.jpg" alt="" />
+              <p>Марина, Самара</p>
+            </div>
+          </div>
+          <div class="review_item">
+            <span>“Уже второй раз заказываю у вас платье...”</span>
+            <p>
+              Доброго дня! Делали заказ второй раз. Общаться с консультантом
+              было очень приятно. По платьям вопросов нет, размер подошёл точно,
+              качество отличное. Заказ пришел очень быстро. Магазину и
+              сотрудникам всего самого хорошего! Спасибо вам.
+            </p>
+            <div class="author_info">
+              <img src="images/ava2.jpg" alt="" />
+              <p>Юлия, Владивосток</p>
+            </div>
+          </div>
+          <div class="review_item">
+            <span>“...дизайн, фактура, пошив на 5+, устраивает и цена!”</span>
+            <p>
+              Платья просто шикарные, легкие, и сели по фигуре как надо!
+              Единственный минус заказала классику, но когда пришло время
+              надевать, поняла, что хочу цветной!)) В остальном я довольна)
+            </p>
+            <div class="author_info">
+              <img src="images/ava3.jpg" alt="" />
+              <p>Оксана, Краснодар</p>
+            </div>
+          </div>
+          <div class="review_item">
+            <span>“Все швы аккуратные, сидит на теле супер!”</span>
+            <p>
+              Поражаю коллег элегантностью и красотой своих нарядов. Рекомендую
+              ваш магазин своим знакомым. Огромное спасибо за хорошее
+              настроение, которое бывает после получения ваших изделий.
+              Творческих успехов и процветания.
+            </p>
+            <div class="author_info">
+              <img src="images/ava4.jpg" alt="" />
+              <p>Татьяна, Ростов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header_section order_section">
+      <div class="content_block">
+        <div class="wrapper">
+          <div class="info_block">
+            <div class="logo">
+              <img src="images/logo_.png" alt="" />
+            </div>
+            <div class="info-action">Сомневаетесь с выбором?</div>
+            <div class="order-consult">
+              Оставьте заявку сейчас и наш консультант поможет вам с выбором
+              платья
+            </div>
+
+            <form
+              id="order_form"
+              class="main-order-form order_form"
+              action="https://dress-discount-n.promo2021.ru/success/"
+              method="post"
+            >
+              <div class="form-title">
+                Мы перезвоним вам в течение 15&nbsp;минут
+              </div>
+
+              <select
+                name="country"
+                class="countryselect form-control"
+                style="width: 300px; height: 45px; line-height: 45px"
+              >
+                <option selected value="RU">Россия</option>
+              </select>
+
+              <input
+                class="input"
+                type="text"
+                name="name"
+                placeholder="Введите ваше имя"
+                required
+                value=""
+                style="height: 45px; line-height: 45px"
+              />
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Введите ваш телефон"
+                required
+                value=""
+                style="height: 45px; line-height: 45px"
+              />
+
+              <input
+                type="hidden"
+                name="productsum"
+                class="productsum"
+                value="1 руб."
+              />
+              <input type="hidden" name="delivery" value="0 руб." />
+              <input
+                type="hidden"
+                name="totalsum"
+                class="productsum"
+                value="1 руб."
+              />
+              <input type="hidden" name="user" value="1" />
+              <input
+                type="hidden"
+                name="address"
+                value="Уточнить у покупателя"
+              />
+
+              <div class="reolader">
+                <button class="button">Заказать со скидкой</button>
+                <div class="ajax_loader_block" style="text-align: center">
+                  <img
+                    class="ajax_loader"
+                    src="img/ajax-loader.gif"
+                    alt="Идет отправка данных"
+                  />
+                  <span class="ajax_loader">Идет отправка данных</span>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="sale">Скидка до<span>-65%</span></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_section">
+      <p>
+        ООО "Лидер-Торг" ИНН 6678055336 / ОГРН 1156678002161 г. Екатеринбург,
+        улица Шейнкмана, дом 9, офис 76
+      </p>
+      <a href="politika.html" target="_blank"
+        >Политика&nbsp;конфиденциальности</a
+      >
+      <a href="agreement.html" target="_blank"
+        >Пользовательское&nbsp;соглашение</a
+      >
+    </footer>
+
+    <style>
+      .form-control {
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+        background: #f0f0f0;
+        border: 1px solid #e0e0e0;
+        margin-bottom: 10px;
+        display: block;
+        margin: 0 0 15px;
+        padding: 0 20px;
+        width: 100%;
+        height: 60px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        border: 1px solid #c4c4c4;
+        font-family: "Museo Sans", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #222;
+        text-align: center;
+        -ms-text-align-last: center;
+        -moz-text-align-last: center;
+        text-align-last: center;
+      }
+    </style>
+
+    <script src="js/blazy.min.js"></script>
+    <script src="assets_pages/land/js/slider/owlCarousel-2.2.1/owl.carousel.min.js"></script>
+    <script src="assets_pages/land/js/slider/fancybox-3/jquery.fancybox.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+
+  <!-- Mirrored from dress-discount-n.promo2021.ru/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Feb 2021 17:20:43 GMT -->
+</html>
